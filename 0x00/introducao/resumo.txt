@@ -1,0 +1,11 @@
+Os Microsserviços são uma abordagem de arquitetura para a criação de aplicações, que são distribuídas e levemente acopladas para que as mudanças não corrompam toda a aplicação. A arquitetura baseada em microsserviços é um modelo que estrutura toda aplicação em uma coleção de serviços. Idealmente, um microsserviço deve ser responsável por uma parte específica de todo o sistema, tendo seu próprio banco de dados.
+
+Diferente da arquitetura monolítica. Que pode ser compreendida como um empacotamento de todos os componentes da aplicação em uma única unidade e quase sempre contém um único banco de dados, onde se concentram todas as informações necessárias para a aplicação.
+O que diferencia a arquitetura de microsserviços das abordagens monolíticas (tradicionais) é como ela decompõe a aplicação por funções. Cada função é denominada um serviço e pode ser criada e implantada de maneira independente, utilizando vários bancos de dados.
+
+Os benefícios da arquitetura de microsserviços são:
+Baixo nível de acoplamento e interdependência entre si, com cada microsserviço tendo o seu próprio banco de dados.
+Facilidade de manutenibilidade e testabilidade.
+
+Já os tipos de comunicação entre os microsserviços são: Comunicação por HTTP; Comunicação por Mensagens e Comunicação Orientada a Eventos.
+
